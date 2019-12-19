@@ -3,6 +3,7 @@ layout: post
 title:  "Ciclos de vida del Software"
 date:   2019-12-01 21:13:53 +0530
 categories: Clases IntroduccionAlSoftware
+description: "Puntos claves en los fundamentos en la IS";
 ---
 
 <h2>Ciclo de vida del Software</h2>
