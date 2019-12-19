@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Ciclos de vida del Software"
+description: "Puntos claves en los fundamentos en la IS";
 date:   2019-12-01 21:13:53 +0530
 ---
 
