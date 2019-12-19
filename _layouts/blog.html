@@ -17,12 +17,19 @@ layout: default
   {%- for post in site.posts -%}
   <li style="
     border-radius: 5px;
-    border: double;
-"
+    border: double;">
+      
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title | escape }}</h2>
     </a>
+     <div class="post-meta">
+      <ul class="post-categories">
+         <a class="post-link" href="{{ post.url | relative_url }}">
+      <h2 class="post-title">{{ post.title | escape }}</h2>
+      </ul>
+      <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
+    </div>
     <div class="post-meta">
       <ul class="post-categories">
         {%- for tag in post.categories -%}
