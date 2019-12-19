@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Ciclos de vida del Software"
+categories: Clases IntroduccionAlSoftware
 date:   2019-12-01 21:13:53 +0530
 ---
 
