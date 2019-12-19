@@ -11,11 +11,14 @@ layout: default
 {%- if site.posts.size > 0 -%}
 <ul class="posts">
   <li>
-    <h1 id="posts-label">posts</h1>
+    <h1 id="posts-label">Lista de Clases</h1>
   </li>
 
   {%- for post in site.posts -%}
-  <li>
+  <li> style="
+    border-radius: 5px;
+    border: double;
+"
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title | escape }}</h2>
