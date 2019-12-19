@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Procesos del Software - Modelos "
+title:  "Procesos del Software "
 date:   2019-12-02 21:13:50 +0530
 categories: Clases IntroduccionAlSoftware
 ---
